@@ -1,24 +1,16 @@
 {
-  "name": "techblog-hw14",
+  "name": "techblog",
   "version": "1.0.0",
-  "description": "tech blog dependencies",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "watch": "nodemon server.js",
-    "seed": "node seeds/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jship23/TechBlog-hw14.git"
+    "seed": "node seeds/seed.js"
   },
   "keywords": [],
-  "author": "Jordan Shipley",
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "eslint": "^7.15.0"
-  },
   "dependencies": {
     "bcrypt": "^5.0.0",
     "connect-session-sequelize": "^7.0.4",
@@ -28,5 +20,10 @@
     "express-session": "^1.17.1",
     "mysql2": "^2.2.5",
     "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "prettier": "^2.1.2"
   }
 }
